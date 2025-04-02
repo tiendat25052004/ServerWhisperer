@@ -34,7 +34,7 @@ MINIO_SECRET_KEY=your_minio_secret_key
 MINIO_ENDPOINT=your_minio_endpoint_url
 ```
 
-4. Create a server configuration file at `data/servers_config.json` with the following structure:
+4.Use your database or create a server configuration file at `data/servers_config.json` with the following structure:
 ```json
 {
   "server-name": {
@@ -60,6 +60,16 @@ The web interface will be available at http://localhost:7860
 - "Get docker logs --tail 50 from container 'my-nginx' on server 'datruong' and upload to minIO"
 - "Get docker logs from container 'my-nginx' on server 'datruong', analyze and send an email to example@example.com"
 
+## Demo Screenshots
+
+### Chatbot Interface
+![Chatbot Interface](assets\chatbot_interface.png)
+*The ServerWhisperer chatbot interface showing the conversation with an example Docker logs command*
+
+### MinIO Storage
+![MinIO Storage](assets\minio_storage.png)
+*Example of Docker logs file uploaded to MinIO storage after command execution*
+
 ## Project Structure
 
 ```
@@ -81,8 +91,11 @@ server_whisperer/
 │   │   └── storage_tools.py
 │   └── ui/
 │       └── app.py
-└── data/
-    └── servers_config.json
+├── data/
+│   └── servers_config.json
+└── assets/
+    ├── chatbot_interface.png
+    └── minio_storage.png
 ```
 
 ## Security Considerations
