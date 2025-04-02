@@ -63,11 +63,11 @@ The web interface will be available at http://localhost:7860
 ## Demo Screenshots
 
 ### Chatbot Interface
-![Chatbot Interface](assets\chatbot_interface.png)
+![Chatbot Interface](assets/chatbot_interface.png)
 *The ServerWhisperer chatbot interface showing the conversation with an example Docker logs command*
 
 ### MinIO Storage
-![MinIO Storage](assets\minio_storage.png)
+![MinIO Storage](assets/minio_storage.png)
 *Example of Docker logs file uploaded to MinIO storage after command execution*
 
 ## Project Structure
