@@ -1,0 +1,17 @@
+{
+    "AI_server": {
+      "ip": "192.168.1.100",
+      "username": "ubuntu",
+      "ssh_key": "~/.ssh/id_rsa"
+    },
+    "OtherServer": {
+      "ip": "192.168.1.101",
+      "username": "user",
+      "password": "yourpassword"
+    },
+    "datruong": {
+      "ip": "172.27.102.178",
+      "username": "datruong",
+      "password": "ttd25052004"
+    }
+  }
