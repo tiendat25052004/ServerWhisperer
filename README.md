@@ -34,7 +34,7 @@ MINIO_SECRET_KEY=your_minio_secret_key
 MINIO_ENDPOINT=your_minio_endpoint_url
 ```
 
-4.Use your database or create a server configuration file at `data/servers_config.json` with the following structure:
+4. Use your database or create a server configuration file at `data/servers_config.json` with the following structure:
 ```json
 {
   "server-name": {
