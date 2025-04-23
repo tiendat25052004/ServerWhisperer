@@ -4,7 +4,7 @@ A chatbot application for SSH-based server and Docker management.
 
 ## Overview
 
-ServerWhisperer is an AI-assisted tool that enables users to interact with remote servers through natural language. It uses OpenAI's GPT models to understand user queries and perform server management tasks.
+ServerWhisperer is an AI-assisted tool that enables users to interact with remote servers through natural language.
 
 ## Features
 
@@ -28,7 +28,6 @@ pip install -r requirements.txt
 
 3. Create a `.env` file in the root directory with the following variables:
 ```
-OPENAI_API_KEY=your_openai_key
 MINIO_ACCESS_KEY=your_minio_access_key
 MINIO_SECRET_KEY=your_minio_secret_key
 MINIO_ENDPOINT=your_minio_endpoint_url
